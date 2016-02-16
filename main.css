@@ -29,3 +29,7 @@ table td{
 #informacion td:nth-child(2){
     text-align: left;
 }
+
+#informacion table{
+    text-align: left;
+}
