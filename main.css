@@ -1,0 +1,31 @@
+body{
+    line-height: 1.5;
+}
+
+hr{
+    border-top: 1px dotted #ccc;
+    margin: .5rem 0;
+}
+
+table{
+    border: 1px dotted #ccc;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+table td,
+table th{
+    border: 1px dotted #ccc;
+    padding: .25em
+}
+
+
+
+table td{
+    text-align: center;
+}
+
+#informacion td:nth-child(1),
+#informacion td:nth-child(2){
+    text-align: left;
+}
