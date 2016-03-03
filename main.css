@@ -6,7 +6,15 @@ hr{
     border-top: 1px dotted #ccc;
     margin: .5rem 0;
 }
-
+img{
+    float: left;
+}
+#me .desc{
+    padding-left: 10%;
+}
+#compers{
+    padding-left: 2%;
+}
 table{
     border: 1px dotted #ccc;
     margin-bottom: 1rem;

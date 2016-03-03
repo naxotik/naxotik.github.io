@@ -1,175 +1,184 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-<meta charset="UTF-8">
-<title>Currículum Vitae: Ignacio García Oliva</title>
-<link href="main.css" rel="stylesheet" type="text/css">
-</head>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
+  <title>Currículum Vitae: Ignacio García Oliva</title>
+  <meta name="description" content="CV de Ignacio García Oliva, 100% a mano">
+  <meta name="keywords" content="CV, HTML, CSS, JavaScript">
+  <meta name="author" content="Ignacio García Oliva">
 
-<!--Menu con hipervínculos de las distintas partes del CV-->
-<p>Menú <strong>CV</strong></p>
-    <ul>
-    <li><a href="#informacion">Información</a></li>
-    <li><a href="#experiencia">Experiencia laboral</a></li>
-    <li><a href="#educacion">Educación y Formación</a></li>
-    <li>
-    <a href="#competencias">Competencias personales</a>
-        <ul>
-        <li><a href="#idiomas">Idiomas</a></li>
-        <li><a href="#conocimientos">Conocimientos</a></li>
-        <li><a href="#habilitaciones">Habilitaciones RPAS</a></li>
-        </ul>
-    </li>
-    <li><a href="#adicional">Información adicional</a></li>
-    <li><a href="#redes">Perfiles sociales</a></li>
-    </ul>
+  <link rel="stylesheet" href="main.css" type="text/css">
+  </head>
+
+  <body>
+
+    <!--Menu con hipervínculos de las distintas partes del CV-->
+    <p>Menú <strong>CV</strong></p>
+      <ul>
+        <li><a href="#informacion">Información</a></li>
+        <li><a href="#experiencia">Experiencia laboral</a></li>
+        <li><a href="#educacion">Educación y Formación</a></li>
+        <li><a href="#competencias">Competencias personales</a>
+          <ul>
+            <li><a href="#idiomas">Idiomas</a></li>
+            <li><a href="#conocimientos">Conocimientos</a></li>
+            <li><a href="#habilitaciones">Habilitaciones RPAS</a></li>
+          </ul>
+        </li>
+        <li><a href="#adicional">Información adicional</a></li>
+        <li><a href="#redes">Perfiles sociales</a></li>
+      </ul>
+        
+    <!--Presentación del CV-->
+    <br>
+    <!--Cabecera-->
     
-<!--Presentación del CV-->
-<br>
-<h1><strong>CV - Ignacio García Oliva</strong></h1>
-    <img src="images/foto ignacio.jpg" alt="Foto de Ignacio García Oliva">
-    <p>Aquí me describo...</p>
+    <div id="me">
+      <img src="images/foto ignacio.jpg" alt="Foto de Ignacio García Oliva">
+      <div class="desc">
+        <h1><strong>Ignacio García Oliva</strong></h1>
+        <p>"Suerte no es conseguir lo que quieres, <br>es sobrevivir a lo que no quieres."</p>
+      </div>
+    </div>
 
-<hr>
-<!--Información personal-->
-<h2 id="informacion">Información</h2>
-    <table>
+    <!--Información personal
+    <div id="info">
+      <h2 id="informacion">Información</h2>
+
+      <table>
         <tbody>
-            <tr>
-                <td><strong>Nombre</strong></td>
-                <td>Ignacio</td>
-            </tr>
-            <tr>
-                <td><strong>Apellidos</strong></td>
-                <td>García Oliva</td>
-            </tr>
-            <tr>
-                <td><strong>Móvil</strong></td>
-                <td>+34 609669707</td>
-            </tr>
-            <tr>
-                <td><strong>E-mail</strong></td>
-                <td>ignacio.garcia.oliva@gmail.com</td>
-            </tr>
+          <tr>
+            <td><strong>Nombre</strong></td>
+            <td>Ignacio</td>
+          </tr>
+          <tr>
+            <td><strong>Apellidos</strong></td>
+            <td>García Oliva</td>
+          </tr>
+          <tr>
+            <td><strong>Móvil</strong></td>
+            <td>+34 609669707</td>
+          </tr>
+          <tr>
+            <td><strong>E-mail</strong></td>
+            <td>ignacio.garcia.oliva@gmail.com</td>
+          </tr>
         <tbody>
+      </table>
+
+    </div>-->
+
+    <br><hr>
+    <!--Experiencia laboral-->
+    <h2 id="experiencia">Experiencia laboral</h2>
+    <table class="box">
+      <thead>
+        <tr>
+          <th>EMPRESA</th>
+          <th>CARGO</th>
+          <th>LOCALIZACIÓN</th>
+          <th>DESDE-HASTA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>TrabajosConDron S.L.</td>
+          <td>Piloto-Socorrista</td>
+          <td>Marbella (Málaga)</td>
+          <td>Julio 2015 - Septiembre 2015</td>
+        </tr>
+        <tr>
+          <td>Wroclaw University of Environmental and Life Sciences</td>
+          <td>Modelador 3D as-built</td>
+          <td>Wroclaw (Polonia)</td>
+          <td>Enero 2013 - Julio 2013</td>
+        </tr>
+      </tbody>
     </table>
 
-<hr>
-<!--Experiencia laboral-->
-<h2 id="experiencia">Experiencia laboral</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>EMPRESA</th>
-                <th>CARGO</th>
-                <th>LOCALIZACIÓN</th>
-                <th>DESDE-HASTA</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>TrabajosConDron S.L.</td>
-                <td>Piloto-Socorrista</td>
-                <td>Marbella (Málaga)</td>
-                <td>Julio 2015 - Septiembre 2015</td>
-            </tr>
-            <tr>
-                <td>Wroclaw University of Environmental and Life Sciences</td>
-                <td>Modelador 3D as-built</td>
-                <td>Wroclaw (Polonia)</td>
-                <td>Enero 2013 - Julio 2013</td>
-            </tr>
-        </tbody>
+    <hr>
+    <!--Educación y Formación-->
+    <h2 id="educacion">Educación y Formación</h2>
+    <table class="box">
+      <thead>
+        <tr>
+          <th>TÍTULO</th>
+          <th>ENTIDAD</th>
+          <th>PROMOCIÓN</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>MasterGIS</td>
+          <td>Esri España</td>
+          <td><strong>Actualmente</strong> (2016)</td>
+        </tr>
+        <tr>
+          <td>Piloto RPAS/UAV (MTOW 25-150kg)</td>
+          <td>Club de Vuelo TAS</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Piloto RPAS (MTOW 2-25kg)</td>
+          <td>Club de Vuelo TAS</td>
+          <td>2014</td>
+        </tr>
+        <!--
+        <tr>
+          <td>Piloto RPAS (MTOW ≤ 2kg)</td>
+          <td>Club de Vuelo TAS</td>
+          <td>2014</td>
+        </tr>
+        -->
+        <tr>
+          <td>Seminario: Spatial Data Infrastructure on IPAD</td>
+          <td>Wroclaw University of Environmental and Life Sciences (Poland) <br> Universidad de La Laguna</td>
+          <td>2013</td>
+        </tr>
+        <tr>
+          <td>Ingeniero Técnico de Topografía</td>
+          <td>Escuela Politécnica Superior de Jaén</td>
+          <td>2012</td>
+        </tr>
+      </tbody>
     </table>
 
-<hr>
-<!--Educación y Formación-->
-<h2 id="educacion">Educación y Formación</h2>
-<table>
-    <thead>
-        <tr>
-            <th>TÍTULO</th>
-            <th>ENTIDAD</th>
-            <th>PROMOCIÓN</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Ingeniero Técnico de Topografía</td>
-            <td>Escuela Politécnica Superior de Jaén</td>
-            <td>2012</td>
-        </tr>
-        <tr>
-            <td>Seminar: Spatial Data Infrastructure on IPAD</td>
-            <td>Wroclaw University of Environmental and Life Sciences (Poland) <br> Universidad de La Laguna</td>
-            <td>2013</td>
-        </tr>
-        <tr>
-            <td>Piloto RPAS (MTOW ≤ 2kg)</td>
-            <td>Club de Vuelo TAS</td>
-            <td>2014</td>
-        </tr>
-        <tr>
-            <td>Piloto RPAS (MTOW 2-25kg)</td>
-            <td>Club de Vuelo TAS</td>
-            <td>2014</td>
-        </tr>
-        <tr>
-            <td>Piloto RPAS/UAV (MTOW 25-150kg)</td>
-            <td>Club de Vuelo TAS</td>
-            <td>2015</td>
-        </tr>
-    </tbody>
-</table>
-
-<hr>
-<!--Competencias personales-->
-<h2 id="competencias">Competencias personales</h2>
-    <!--TODO: cómo le pongo la tabulación?-->
-    <h3 id="idiomas">Idiomas</h3>
+    <hr>
+    <!--Competencias personales-->
+    <h2 id="competencias">Competencias personales</h2>
+        <!--TODO: cómo le pongo la tabulación?-->
+    <div id="compers">
+      <h3 id="idiomas">Idiomas</h3>
         <ul>
-            <li>Español, Inglés (B2).</li>
+          <li>Español, Inglés (B2).</li>
         </ul>
-    <h3 id="conocimientos">Conocimientos</h3>
+      <h3 id="conocimientos">Conocimientos</h3>
         <ul>
-            <li>
-                <strong>Ofimática:</strong> Microsoft Office, OpenOffice.
-            </li>
-            <li>
-                <strong>CAD:</strong> AutoCAD, MDT.
-            </li>
-            <li>
-                <strong>Sistemas de Información Geográfica (GIS):</strong> ArcGIS.
-            </li>
-            <li>
-                <strong>3D:</strong> Leica Cyclone, Google SketchUp.
-            </li>
-            <li>
-                <strong>Edición de imagen:</strong> GIMP.
-            </li>
-            <li>
-                <strong>Lenguajes varios:</strong> C, .NET, HTML5, CSS3.
-            </li>
+          <li><strong>Ofimática:</strong> Microsoft Office, OpenOffice.</li>
+          <li><strong>CAD:</strong> AutoCAD, MDT.</li>
+          <li><strong>Sistemas de Información Geográfica (GIS):</strong> ArcGIS.</li>
+          <li><strong>3D:</strong> Leica Cyclone, Google SketchUp.</li>
+          <li><strong>Edición de imagen:</strong> GIMP.</li>
+          <li><strong>Lenguajes varios:</strong> C, .NET, HTML5, CSS3, JavaScript, Dojo.</li>
         </ul>
-    <h3 id="habilitaciones">Habilitaciones RPAS</h3>
+      <h3 id="habilitaciones">Habilitaciones RPAS</h3>
         <ul>
-            <li>DJI Phantom 2.</li>
-            <li>DJI S-900.</li>
+          <li>DJI Phantom 2.</li>
+          <li>DJI S-900.</li>
         </ul>
+    </div>
 
-<hr>
-<!--Perfiles sociales-->
-<h2 id="redes">Perfiles sociales</h2>
-    <a href="https://www.github.com/naxotik" target="_blank">GitHUB</a>
-    <a href="https://es.linkedin.com/in/ignaciogarciaoliva" target="_blank">LinkedIn</a>
-    <a href="https://www.twitter.com/Alpargatoman" target="_blank">Twitter</a>
-    <a href="https://plus.google.com/u/0/107386398893599837269/posts/p/pub" target="_blank">Google Plus</a>
-    
-
-
-</body>
+    <hr>
+    <!--Perfiles sociales-->
+    <h2 id="redes">Perfiles sociales</h2>
+      <a href="https://www.github.com/naxotik" target="_blank">GitHUB</a>
+      <a href="https://es.linkedin.com/in/ignaciogarciaoliva" target="_blank">LinkedIn</a>
+      <a href="https://www.twitter.com/Alpargatoman" target="_blank">Twitter</a>
+      <a href="https://plus.google.com/u/0/107386398893599837269/posts/p/pub" target="_blank">Google Plus</a>
+        
+  </body>
 
 </html>
