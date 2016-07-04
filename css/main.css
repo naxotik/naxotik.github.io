@@ -2,6 +2,34 @@ body{
     line-height: 1.5;
 }
 
+.menu{
+    width: 100%;
+    background: blue;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    padding: 10px 20px;
+    display: inline-block;
+    color:white;
+}
+
+.menu li a:hover{
+    background:aqua;
+    color: black;
+}
+
+.menu ul{
+    list-style: none;
+}
+
 hr{
     border-top: 1px dotted #ccc;
     margin: .5rem 0;
@@ -27,17 +55,6 @@ table th{
     padding: .25em
 }
 
-
-
 table td{
     text-align: center;
-}
-
-#informacion td:nth-child(1),
-#informacion td:nth-child(2){
-    text-align: left;
-}
-
-#informacion table{
-    text-align: left;
 }
