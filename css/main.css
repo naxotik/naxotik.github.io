@@ -1,14 +1,18 @@
 body{
-    line-height: 1.5;
+    line-height: 1.45;
 }
 
+/*Estilos Menu*/
 .menu{
     width: 100%;
-    background: blue;
+    background: #FFFFFF;
     list-style: none;
+    top: 0;
     margin: 0;
     padding: 0;
     text-align: center;
+    position: fixed;
+    border-bottom: 1px solid #000000;
 }
 
 .menu li{
@@ -18,28 +22,49 @@ body{
 .menu li a{
     padding: 10px 20px;
     display: inline-block;
-    color:white;
+    color: #000000;
+    text-decoration: none;
 }
 
 .menu li a:hover{
-    background:aqua;
-    color: black;
+    background: rgba(0, 0, 0, .1);
 }
 
 .menu ul{
     list-style: none;
 }
 
+/*Separador*/
 hr{
-    border-top: 1px dotted #ccc;
+    border-top: 1px solid #ccc;
     margin: .5rem 0;
 }
-img{
-    float: left;
+
+/*Cuerpo del CV*/
+#container{
+    width: 80%;
+    max-width: 980px;
+    margin: 3rem auto 1rem;
+    padding-top: .5rem;
 }
-#me .desc{
-    padding-left: 10%;
+
+/*Estilo de Cabecera*/
+#me{
+    background: url('../images/foto ignacio.jpg') left/15% auto no-repeat;
+    padding-left: 18%;
+    height: 132px;
 }
+
+/*Estilo General Tabla*/
+.box{
+    border-style: solid;
+}
+
+.box thead{
+    background: #CECEF6;
+    text-transform: uppercase;
+}
+
 #compers{
     padding-left: 2%;
 }
