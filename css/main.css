@@ -107,6 +107,10 @@ label{
     margin-bottom: .5rem;
 }
 
+input,select,textarea{
+    width: 400px;
+}
+
 textarea, input, select{
     padding: .5em .6em;
     display: inline-block;
@@ -126,6 +130,7 @@ textarea, input, select{
 
 textarea{
     height: 6rem;
+    max-width: 80%;
 }
 
 select{
