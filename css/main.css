@@ -49,10 +49,28 @@ hr{
 }
 
 /*Cabecera*/
+/*
 #me{
-    background: url('../images/foto ignacio.jpg') left/15% auto no-repeat;
+    /*background: url('../images/foto.jpg') left/15% auto no-repeat;
     padding-left: 18%;
     height: 150px;
+    float: left;
+}
+*/
+#me{
+    text-align: center;
+}
+
+#me img{
+    width: 480px;
+    float: left;
+}
+
+blockquote p{
+    text-indent: 1.3em;
+    text-align: justify;
+    width: 50%;
+    padding-left: 52%;
 }
 
 /*Tablas*/
