@@ -1,173 +1,71 @@
-body{
-    line-height: 1.45;
+/* -- Header -- */
+
+.navbar{
+	margin-bottom: 0px;
 }
 
-/*Estilos Menu*/
-.menu{
-    width: 100%;
-    background: #FFFFFF;
-    list-style: none;
-    top: 0;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    position: fixed;
-    border-bottom: 1px solid #000000;
+/* -- CV corp -- */
+
+.main{
+	padding-top: 30px;
 }
 
-.menu li{
-    display: inline-block;
+.seccion{
+	padding-top: 50px;
 }
 
-.menu li a{
-    padding: 10px 20px;
-    display: inline-block;
-    color: #000000;
-    text-decoration: none;
+h2{
+	padding-bottom: 10px;
 }
 
-.menu li a:hover{
-    background: rgba(0, 0, 0, .1);
-}
-
-.menu ul{
-    list-style: none;
-}
-
-/*Separador*/
-hr{
-    border-top: 1px solid #ccc;
-    margin: .5rem 0;
-}
-
-/*Cuerpo del CV*/
-#container{
-    width: 80%;
-    max-width: 980px;
-    margin: 3rem auto 1rem;
-    padding-top: .5rem;
-}
-
-/*Cabecera*/
-/*
 #me{
-    /*background: url('../images/foto.jpg') left/15% auto no-repeat;
-    padding-left: 18%;
-    height: 150px;
-    float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#me .thumb{
+	width: 40%;
+	margin-right: 10px;
+}
+/*
+#me .thumb img{
+	width: 100%;
 }
 */
-#me{
-    text-align: center;
+.nombre, .cita{
+	text-align: center;
 }
 
-#me img{
-    width: 480px;
-    float: left;
+.descripcion{
+	text-indent: 1.3em;
+	text-align: justify;
 }
 
-blockquote p{
-    text-indent: 1.3em;
-    text-align: justify;
-    /*width: 50%;*/
-    padding-left: 52%;
+.idiomas, .conocimientos, .habilitaciones{
+	text-indent: .5em;
 }
 
-/*Tablas*/
-.box{
-    border-style: solid;
+/* -- Footer -- */
+
+footer{
+	background: #4d4d33;
+	padding-top: 10px;
+	margin-top: 20px;
 }
 
-.box thead{
-    background: #CECEF6;
-    text-transform: uppercase;
+footer .list-inline{
+	text-align: center;
 }
 
-#compers{
-    padding-left: 2%;
-}
-table{
-    border: 1px dotted #ccc;
-    margin-bottom: 1rem;
-    width: 100%;
+footer img{
+	width: 32px;
 }
 
-table td,
-table th{
-    border: 1px dotted #ccc;
-    padding: .25em
-}
+/* -- Media Query -- */
 
-table td{
-    text-align: center;
-}
-
-/*Formulario*/
-form{
-    border: 1px dotted #ccc;
-    padding: 1rem;
-    margin: 0 auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-}
-
-label{
-    width: 20%;
-}
-
-#note{
-    display: block;
-    font-size: .8rem;
-    clear: both;
-    width: 80%;
-    padding-left: 20%;
-    margin-bottom: .5rem;
-}
-
-input,select,textarea{
-    width: 400px;
-}
-
-textarea, input, select{
-    padding: .5em .6em;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-shadow: inset 0 1px 3px #ddd;
-    border-radius: 4px;
-    vertical-align: middle;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    height: 2.25rem;
-    font-size: .9rem;
-    font-weight: 300;
-    width: 80%;
-    margin-bottom: .5rem;
-}
-
-textarea{
-    height: 6rem;
-    max-width: 80%;
-}
-
-select{
-    background-color: #fff;
-}
-
-input:focus, textarea:focus, select:focus{
-    border-color: #129FEA;
-    outline: none;
-    box-shadow: none;
-}
-
-button{
-    background-color: #0078e7;
-    color: #fff;
-    padding: .5em 1em;
-    border: 0 rgba(0,0,0,0);
-    border-radius: 2px;
-    width: 80%;
-    font-size: .9rem;
-    font-weight: 600;
+@media screen and (max-width: 768px){
+	#me .thumb{
+		width: 100%;
+		margin-bottom: 20px;
+	}
 }

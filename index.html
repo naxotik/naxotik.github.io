@@ -1,202 +1,252 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		
+		<title>CV Ignacio García Oliva</title>
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimal-ui">
+		<meta name="description" content="CV Ignacio García Oliva">
+		<meta name="keywords" content="CV, curriculum, curriculo, HTML, CSS, JavaScript, bootstrap, Ignacio García Oliva">
+		<meta name="author" content="Ignacio García Oliva">
 
-    <title>Currículum Vítae: Ignacio García Oliva</title>
-    <meta name="description" content="CV de Ignacio García Oliva">
-    <meta name="keywords" content="CV, curriculum, HTML, CSS, Ignacio García Oliva">
-    <meta name="author" content="Ignacio García Oliva">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
 
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-  </head>
+	</head>
 
-  <body>
+	<body>
 
-    <!--Menu con hipervínculos de las distintas partes del CV-->
-    <header>
-      <nav>
-        <ul class="menu">
-          <li><a href="#experiencia">Experiencia laboral</a></li>
-          <li><a href="#educacion">Educación y Formación</a></li>
-          <li><a href="#competencias">Competencias profesionales</a></li>
-          <!--<li><a href="#adicional">Información adicional</a></li>-->
-          <li><a href="#redes">Perfiles sociales</a></li>
-        </ul>
-      </nav>
-    </header>
+		<!-- Header -->
+		<header>
+				<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+					<div class="container">
+						<!-- Navbar header -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion">
+								<span class="sr-only">Mostrar / Ocultar Menú</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
 
-    <div id="container">
-      <!--Presentación del CV-->
-      <!--Cabecera-->
-      <div id="me">
-        <img src="images/foto.jpg">
-        <article>
-          <h1><strong>Ignacio García Oliva</strong></h1>
-        </article>
-        <p>"Suerte no es conseguir lo que quieres, <br>es sobrevivir a lo que no quieres."</p>
-      </div>
+							<a href="#me" class="navbar-brand active">Ignacio García Oliva</a>
+						</div>
+						<!-- End Navbar header -->
 
-      <br>
+						<!-- Menu -->
+						<div class="collapse navbar-collapse" id="navegacion">
+							<ul class="nav navbar-nav" role="tablist">
+								<li><a href="#experiencia">Experiencia Laboral</a></li>
+								<li><a href="#educacion">Educación</a></li>
+								<li><a href="#competencias">Competencias Profesionales</a></li>
+							</ul>
+						</div>
+						<!-- End Menu -->
+					</div>
+				</nav>
+			</header>
+			<!-- End Header -->
 
-      <!--Algo sobre mi-->
-      <blockquote>
-        <p>
-          Soy un ingeniero topógrafo al que le apasionan las nuevas tecnologías, lo que me ha llevado al mundo de los drones (RPAS) y al modelado 3D. También disfruto con la programación y el desarrollo de GIS.
-        </p>
+			<!-- Main Container -->
+			<section class="main container">
+				<!-- Me -->
+				<div class="row">
+					<div class="col-md-12">
+						
+						<div id="me" class="seccion clearfix">
+							<!-- Profile picture -->
+							<a href="#" class="thumb pull-left">
+								<img class="img-responsive img-rounded" src="images/me.jpg" alt="Profile picture">
+							</a>
+							<!-- End Profile picture -->
 
-        <!-- <p>
-          Me gusta dedicar mi tiempo libre a practicar deporte, juegos de mesa y ordenador y a seguir formándome en la programación, por lo que suelo usar el deporte para evadirme en los ratos de frustración al programar.
-        </p> -->
-      </blockquote>
+							<!-- About me -->
+							<article class="hidden-xs hidden-sm">
+								<h1 class="nombre"><strong>Ignacio García Oliva</strong></h1>
+							</article>
+							<p class="cita">"Suerte no es conseguir lo que quieres, sino sobrevivir a lo que no quieres."</p>
+							<blockquote>
+								<p class="descripcion">Soy un ingeniero topógrafo al que le apasionan las nuevas tecnologías, lo que me ha llevado al mundo de los drones (RPAS) y al modelado 3D. También disfruto con la programación y el desarrollo web y GIS.</p>
+							</blockquote>
+							<!-- End About me -->
+						</div>
 
-      <br><hr>
+					</div>
+				</div>
+				<!-- End Me -->
 
-      <!--Experiencia laboral-->
-      <h2 id="experiencia">Experiencia laboral</h2>
+				<!-- Expertise -->
+				<div class="row">
+					<div class="col-md-12">
 
-      <table class="box">
-        <thead>
-          <tr>
-            <th>Empresa</th>
-            <th>Cargo</th>
-            <th>Localización</th>
-            <th>Desde - Hasta</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Esri España</td>
-            <td>Solution Engineer (Prácticas)</td>
-            <td>Madrid (Madrid)</td>
-            <td>Abril 2016 - Julio 2016</td>
-          </tr>
-          <tr>
-            <td>TrabajosConDron S.L.</td>
-            <td>Piloto-Socorrista</td>
-            <td>Marbella (Málaga)</td>
-            <td>Julio 2015 - Septiembre 2015</td>
-          </tr>
-          <tr>
-            <td>Wroclaw University of Environmental and Life Sciences</td>
-            <td>Modelador 3D as-built</td>
-            <td>Wroclaw (Polonia)</td>
-            <td>Enero 2013 - Julio 2013</td>
-          </tr>
-        </tbody>
-      </table>
+						<div class="seccion" id="experiencia">
+							<h2>Experiencia laboral</h2>
+							
+							<div class="table-responsive">
+					      <table class="table table-bordered">
+					        <thead>
+					          <tr class="active">
+					            <th>Empresa</th>
+					            <th>Cargo</th>
+					            <th>Localización</th>
+					            <th>Desde - Hasta</th>
+					          </tr>
+					        </thead>
+					        <tbody>
+					          <tr>
+					            <td>Esri España</td>
+					            <td>Solution Engineer (Prácticas)</td>
+					            <td>Madrid (Madrid)</td>
+					            <td>Abril 2016 - Julio 2016</td>
+					          </tr>
+					          <tr>
+					            <td>TrabajosConDron S.L.</td>
+					            <td>Piloto-Socorrista</td>
+					            <td>Marbella (Málaga)</td>
+					            <td>Julio 2015 - Septiembre 2015</td>
+					          </tr>
+					          <tr>
+					            <td>Wroclaw University of Environmental and Life Sciences</td>
+					            <td>Modelador 3D as-built</td>
+					            <td>Wroclaw (Polonia)</td>
+					            <td>Enero 2013 - Julio 2013</td>
+					          </tr>
+					        </tbody>
+					      </table>
+					    </div>
+					  </div>
 
-      <hr>
-      <!--Educación y Formación-->
-      <h2 id="educacion">Educación y Formación</h2>
+					</div>
+				</div>
+				<!-- End Expertise -->
 
-      <table class="box">
-        <thead>
-          <tr>
-            <th>Título</th>
-            <th>Entidad</th>
-            <th>Promoción</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>MasterGIS</td>
-            <td>Esri España</td>
-            <td>2016</td>
-          </tr>
-          <tr>
-            <td>Curso de Piloto RPAS/UAV (MTOW 25-150kg)</td>
-            <td>Club de Vuelo TAS</td>
-            <td>2015</td>
-          </tr>
-          <tr>
-            <td>Curso Avanzado Piloto RPAS (MTOW hasta 25kg)</td>
-            <td>Club de Vuelo TAS</td>
-            <td>2014</td>
-          </tr>
-          <tr>
-            <td>Seminario: Spatial Data Infrastructure on IPAD</td>
-            <td>Wroclaw University of Environmental and Life Sciences (Poland) <br> Universidad de La Laguna</td>
-            <td>2013</td>
-          </tr>
-          <tr>
-            <td>Ingeniero Técnico de Topografía</td>
-            <td>Escuela Politécnica Superior de Jaén</td>
-            <td>2012</td>
-          </tr>
-        </tbody>
-      </table>
+				<!-- Education -->
+				<div class="row">
+					<div class="col-md-12">
 
-      <hr>
-      <!--Competencias profesionales-->
-      <h2 id="competencias">Competencias Profesionales</h2>
+						<div class="seccion" id="educacion">
+							<h2>Educación y Formación</h2>
 
-      <div id="compers">
-        <h3 id="idiomas">Idiomas</h3>
-          <ul>
-            <li>Español (Nativo)</li>
-            <li>Inglés (B2)</li>
-          </ul>
-        <h3 id="conocimientos">Conocimientos</h3>
-          <ul>
-            <li><b>Ofimática:</b> Microsoft Office, OpenOffice.</li>
-            <li><b>CAD:</b> AutoCAD, MDT.</li>
-            <li><b>Sistemas de Información Geográfica (GIS):</b> Plataforma ArcGIS (Desktop, Server, PRO, Online, Developers).</li>
-            <li><b>3D:</b> Leica Cyclone, SketchUp.</li>
-            <li><b>Edición de imagen:</b> GIMP.</li>
-            <li><b>Lenguajes de Programación:</b> Pascal, .NET, HTML5, CSS3, JavaScript, Python (ArcPy).</li>
-            <li><b>Tratamiento de imágenes con drones:</b> Drone2Map, Pix4D, OneButton, Agisoft PhotoScan, OrtoSky.</li>
-          </ul>
-        <h3 id="habilitaciones">Habilitaciones RPAS</h3>
-          <ul>
-            <li>DJI Phantom 2</li>
-            <li>DJI S-900</li>
-          </ul>
-      </div>
+				      <table class="table table-bordered">
+				        <thead>
+				          <tr class="active">
+				            <th>Título</th>
+				            <th>Entidad</th>
+				            <th>Promoción</th>
+				          </tr>
+				        </thead>
+				        <tbody>
+				          <tr>
+				            <td>MasterGIS</td>
+				            <td>Esri España</td>
+				            <td>2016</td>
+				          </tr>
+				          <tr>
+				            <td>Curso de Piloto RPAS/UAV (MTOW 25-150kg)</td>
+				            <td>Club de Vuelo TAS</td>
+				            <td>2015</td>
+				          </tr>
+				          <tr>
+				            <td>Curso Avanzado Piloto RPAS (MTOW hasta 25kg)</td>
+				            <td>Club de Vuelo TAS</td>
+				            <td>2014</td>
+				          </tr>
+				          <tr>
+				            <td>Seminario: Spatial Data Infrastructure on IPAD</td>
+				            <td>Wroclaw University of Environmental and Life Sciences (Poland) <br> Universidad de La Laguna</td>
+				            <td>2013</td>
+				          </tr>
+				          <tr>
+				            <td>Ingeniero Técnico de Topografía</td>
+				            <td>Escuela Politécnica Superior de Jaén</td>
+				            <td>2012</td>
+				          </tr>
+				        </tbody>
+				      </table>
+						</div>
 
-      <hr>
-      <!--Perfiles sociales-->
-      <h2 id="redes">Perfiles sociales</h2>
+					</div>
+				</div>
+				<!-- End Education -->
 
-      <a href="https://es.linkedin.com/in/ignaciogarciaoliva" target="_blank">
-        <img src="images/linkedin_logo.png" alt="LinkedIn" style="width: 64px; height: 64px">
-      </a>
-      
-      <a href="https://www.github.com/naxotik" target="_blank">
-        <img src="images/github_logo.png" alt="GitHub" style="width: 64px; height: 64px">
-      </a>
+				<!-- Professional skills -->
+				<div class="row">
+					<div class="col-md-12">
 
-      <a href="https://www.twitter.com/Alpargatoman" target="_blank">
-        <img src="images/twitter_logo.png" alt="Twitter" style="width: 64px; height: 64px">
-      </a>
+						<div class="seccion" id="competencias">
+							<h2>Competencias Profesionales</h2>
 
-      <!--Contactar-->
-<!--
-      <hr>
-      <h2 id="contactar">Contactar</h2>
-      
-      <form id="email" method="GET">
-        
-        <label for="to">Para:</label>
-        <input id="to" type="email" required>
+			        <h3 class="idiomas">Idiomas</h3>
+		          <ul>
+		            <li>Español (Nativo)</li>
+		            <li>Inglés (B2)</li>
+		          </ul>
 
-        <div id="note">
-          Resuelve este CAPTCHA para saber mi email: <a href="http://www.google.com/recaptcha/mailhide/d?k=01vxJflfgEQgNevK72lauzLg==&amp;c=vro64XHdu2_U-jIN6AJGBLZwd8M-M_1IHi9PoEiuPPk=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01vxJflfgEQgNevK72lauzLg\x3d\x3d\x26c\x3dvro64XHdu2_U-jIN6AJGBLZwd8M-M_1IHi9PoEiuPPk\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=350'); return false;" title="Reveal this e-mail address">i...</a>@gmail.com
-        </div>
-      
-        <label for="subject">Asunto:</label>
-        <input id="subject" type="text" required>
-      
-        <label for="body">Cuerpo:</label>
-        <textarea id="body" required></textarea>      
-      
-        <button type="submit" class="pure-button pure-button-primary">Enviar</button>
-        
-      </form>
--->      
-    </div>      
-  </body>
+			        <h3 class="conocimientos">Conocimientos</h3>
+		          <ul>
+		            <li><b>Ofimática:</b> Microsoft Office, OpenOffice.</li>
+		            <li><b>CAD:</b> AutoCAD, MDT.</li>
+		            <li><b>Sistemas de Información Geográfica (GIS):</b> Plataforma ArcGIS (Desktop, Server, PRO, Online, Developers).</li>
+		            <li><b>3D:</b> Leica Cyclone, SketchUp.</li>
+		            <li><b>Edición de imagen:</b> GIMP.</li>
+		            <li><b>Lenguajes de Programación:</b> Pascal, .NET, HTML5, CSS3, JavaScript, jQuery, Python (ArcPy).</li>
+		            <li><b>Tratamiento de imágenes con drones:</b> Drone2Map, Pix4D, OneButton, Agisoft PhotoScan, OrtoSky.</li>
+		          </ul>
 
+			        <h3 class="habilitaciones">Habilitaciones RPAS</h3>
+		          <ul>
+		            <li>DJI Phantom 2</li>
+		            <li>DJI S-900</li>
+		          </ul>
+						</div>
+
+					</div>
+				</div>
+				<!-- End Professional skills -->
+
+			</section>
+			<!-- End Main Container -->
+
+			<!-- Footer -->
+			<footer>
+				<div class="container">
+					<div class="row">
+
+							<ul class="list-inline">
+								<li>
+									<a href="https://es.linkedin.com/in/ignaciogarciaoliva" data-toggle="tooltip" title="Ignacio García Oliva" target="_blank">
+				  	      	<img src="images/linkedin_logo.png" alt="LinkedIn">
+				  	      	<span class="sr-only">LinkedIn</span>
+				  		    </a>
+								</li>
+								<li>
+									<a href="https://www.github.com/naxotik" data-toggle="tooltip" title="/naxotik" target="_blank">
+						        <img src="images/github_logo.png" alt="GitHub">
+						        <span class="sr-only">GitHub</span>
+						      </a>
+								</li>
+								<li>
+									<a href="https://www.twitter.com/Alpargatoman" data-toggle="tooltip" title="@Alpargatoman" target="_blank">
+						        <img src="images/twitter_logo.png" alt="Twitter">
+						        <span class="sr-only">Twitter</span>
+						      </a>
+								</li>
+							</ul>
+
+					</div>
+				</div>
+			</footer>
+			<!-- End Footer -->
+
+
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('[data-toggle="tooltip"]').tooltip();
+			});
+		</script>
+	</body>
 </html>
