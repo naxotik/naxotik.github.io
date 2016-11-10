@@ -27,11 +27,11 @@ h2{
 	width: 40%;
 	margin-right: 10px;
 }
-/*
+
 #me .thumb img{
 	width: 100%;
 }
-*/
+
 .nombre, .cita{
 	text-align: center;
 }
@@ -61,7 +61,7 @@ footer img{
 	width: 32px;
 }
 
-/* -- Media Query -- */
+/* -- Media Querie -- */
 
 @media screen and (max-width: 768px){
 	#me .thumb{

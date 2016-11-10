@@ -7,7 +7,7 @@
 		<title>CV Ignacio García Oliva</title>
 
 		<meta name="description" content="CV Ignacio García Oliva">
-		<meta name="keywords" content="CV, curriculum, curriculo, HTML, CSS, JavaScript, bootstrap, Ignacio García Oliva">
+		<meta name="keywords" content="CV, curriculum, curriculo, HTML, CSS, JavaScript, jQuery, bootstrap, Ignacio García Oliva">
 		<meta name="author" content="Ignacio García Oliva">
 
 		<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -19,66 +19,72 @@
 
 		<!-- Header -->
 		<header>
-				<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-					<div class="container">
-						<!-- Navbar header -->
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion">
-								<span class="sr-only">Mostrar / Ocultar Menú</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
+			<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+				<div class="container">
+					<!-- Navbar header -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion">
+							<span class="sr-only">Mostrar / Ocultar Menú</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
 
-							<a href="#me" class="navbar-brand active">Ignacio García Oliva</a>
-						</div>
-						<!-- End Navbar header -->
-
-						<!-- Menu -->
-						<div class="collapse navbar-collapse" id="navegacion">
-							<ul class="nav navbar-nav" role="tablist">
-								<li><a href="#experiencia">Experiencia Laboral</a></li>
-								<li><a href="#educacion">Educación</a></li>
-								<li><a href="#competencias">Competencias Profesionales</a></li>
-							</ul>
-						</div>
-						<!-- End Menu -->
+						<a href="#me" class="navbar-brand active">Ignacio García Oliva</a>
 					</div>
-				</nav>
-			</header>
-			<!-- End Header -->
+					<!-- End Navbar header -->
 
-			<!-- Main Container -->
-			<section class="main container">
+					<!-- Menu -->
+					<div class="collapse navbar-collapse" id="navegacion">
+						<ul class="nav navbar-nav" role="tablist">
+							<li><a href="#experiencia">Experiencia Laboral</a></li>
+							<li><a href="#educacion">Educación</a></li>
+							<li><a href="#competencias">Competencias Profesionales</a></li>
+						</ul>
+					</div>
+					<!-- End Menu -->
+				</div>
+			</nav>
+		</header>
+		<!-- End Header -->
+
+		<!-- Main Container -->
+		<div class="container">
+
+			<!-- Main Section -->
+			<section class="main">
+
 				<!-- Me -->
 				<div class="row">
-					<div class="col-md-12">
 						
-						<div id="me" class="seccion clearfix">
+						<div id="me" class="seccion">
 							<!-- Profile picture -->
+
 							<a href="#" class="thumb pull-left">
 								<img class="img-responsive img-rounded" src="images/me.jpg" alt="Profile picture">
 							</a>
+
 							<!-- End Profile picture -->
 
 							<!-- About me -->
-							<article class="hidden-xs hidden-sm">
-								<h1 class="nombre"><strong>Ignacio García Oliva</strong></h1>
-							</article>
-							<p class="cita">"Suerte no es conseguir lo que quieres, sino sobrevivir a lo que no quieres."</p>
-							<blockquote>
-								<p class="descripcion">Soy un ingeniero topógrafo al que le apasionan las nuevas tecnologías, lo que me ha llevado al mundo de los drones (RPAS) y al modelado 3D. También disfruto con la programación y el desarrollo web y GIS.</p>
-							</blockquote>
+							<div class="col-xs-12 col-sm-6 col-sm-offset-1">
+								<article class="hidden-xs hidden-sm">
+									<h1 class="nombre"><strong>Ignacio García Oliva</strong></h1>
+								</article>
+								<p class="cita">"Suerte no es conseguir lo que quieres, sino sobrevivir a lo que no quieres."</p>
+								<blockquote>
+									<p class="descripcion">Soy un ingeniero topógrafo al que le apasionan las nuevas tecnologías, lo que me ha llevado al mundo de los drones (RPAS) y al modelado 3D. También disfruto con la programación y el desarrollo web y GIS.</p>
+								</blockquote>
+							</div>
 							<!-- End About me -->
 						</div>
 
-					</div>
 				</div>
 				<!-- End Me -->
 
 				<!-- Expertise -->
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-xs-12">
 
 						<div class="seccion" id="experiencia">
 							<h2>Experiencia laboral</h2>
@@ -123,7 +129,7 @@
 
 				<!-- Education -->
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-xs-12">
 
 						<div class="seccion" id="educacion">
 							<h2>Educación y Formación</h2>
@@ -172,7 +178,7 @@
 
 				<!-- Professional skills -->
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-xs-12">
 
 						<div class="seccion" id="competencias">
 							<h2>Competencias Profesionales</h2>
@@ -206,36 +212,39 @@
 				<!-- End Professional skills -->
 
 			</section>
-			<!-- End Main Container -->
+			<!-- End Main Section -->
 
-			<!-- Footer -->
-			<footer>
-				<div class="container">
-					<ul class="list-inline">
-						<li>
-							<a href="https://es.linkedin.com/in/ignaciogarciaoliva" data-toggle="tooltip" title="Ignacio García Oliva" target="_blank">
-		  	      	<img src="images/linkedin_logo.png" alt="LinkedIn">
-		  	      	<span class="sr-only">LinkedIn</span>
-		  		    </a>
-						</li>
+		</div>
+		<!-- End Main Container -->
 
-						<li>
-							<a href="https://www.github.com/naxotik" data-toggle="tooltip" title="/naxotik" target="_blank">
-				        <img src="images/github_logo.png" alt="GitHub">
-				        <span class="sr-only">GitHub</span>
-				      </a>
-						</li>
-						
-						<li>
-							<a href="https://www.twitter.com/Alpargatoman" data-toggle="tooltip" title="@Alpargatoman" target="_blank">
-				        <img src="images/twitter_logo.png" alt="Twitter">
-				        <span class="sr-only">Twitter</span>
-				      </a>
-						</li>
-					</ul>
-				</div>
-			</footer>
-			<!-- End Footer -->
+		<!-- Footer -->
+		<footer>
+			<div class="container">
+				<ul class="list-inline">
+					<li>
+						<a href="https://es.linkedin.com/in/ignaciogarciaoliva" data-toggle="tooltip" title="Ignacio García Oliva" target="_blank">
+	  	      	<img src="images/linkedin_logo.png" alt="LinkedIn">
+	  	      	<span class="sr-only">LinkedIn</span>
+	  		    </a>
+					</li>
+
+					<li>
+						<a href="https://www.github.com/naxotik" data-toggle="tooltip" title="/naxotik" target="_blank">
+			        <img src="images/github_logo.png" alt="GitHub">
+			        <span class="sr-only">GitHub</span>
+			      </a>
+					</li>
+
+					<li>
+						<a href="https://www.twitter.com/Alpargatoman" data-toggle="tooltip" title="@Alpargatoman" target="_blank">
+			        <img src="images/twitter_logo.png" alt="Twitter">
+			        <span class="sr-only">Twitter</span>
+			      </a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+		<!-- End Footer -->
 
 
 		<script src="js/jquery.js"></script>
@@ -246,5 +255,6 @@
 				$('[data-toggle="tooltip"]').tooltip();
 			});
 		</script>
+		
 	</body>
 </html>
