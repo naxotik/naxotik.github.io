@@ -41,6 +41,10 @@ h2{
 	text-align: justify;
 }
 
+th{
+	text-align: center;
+}
+
 .idiomas, .conocimientos, .habilitaciones{
 	text-indent: .5em;
 }
