@@ -45,6 +45,25 @@ th{
 	text-align: center;
 }
 
+#experiencia th,
+#experiencia td{
+	vertical-align: middle;
+}
+
+#experiencia td:nth-child(3),
+#experiencia td:nth-child(4){
+	text-align: center;
+}
+
+#educacion th,
+#educacion td{
+	vertical-align: middle;
+}
+
+#educacion td:nth-child(3){
+	text-align: center;
+}
+
 .idiomas, .conocimientos, .habilitaciones{
 	text-indent: .5em;
 }
